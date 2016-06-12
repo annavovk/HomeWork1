@@ -1,0 +1,28 @@
+body {
+    background-color: #ddd;
+}
+
+#container {
+    padding: 20px;
+    background-color: white;
+    max-width: 800px;
+    box-shadow: 1px 1px 3px black;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#img {
+    background: url(avatar.png) no-repeat center;
+    height: 640px;
+}
+
+.block {
+    border-bottom: 1px solid black;
+}
+
+.block:last-child {
+    border-bottom: none;
+}
